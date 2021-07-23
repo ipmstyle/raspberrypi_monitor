@@ -24,3 +24,13 @@
 
     CPU 온도 로그파일 보기<br />
     `sudo cat /var/log/cpu_temp`
+
+1. 결과
+
+    ```
+    pi@tinyos:~ $ rpi_cpu_temp
+    2021-07-23 14:42:58 40.894
+
+    pi@tinyos:~ $ rpi_gpu_temp
+    2021-07-23 14:43:01 42.355
+    ```
