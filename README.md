@@ -3,9 +3,12 @@
 ## INSTALL
 
   매 5분마다 라즈베리파이의 CPU/GPU 온도를 측정하여 로그로 저장한다. <p>
-  `sudo chmod +x ./temp_for_crontab.sh` <br />
-  `./temp_for_crontab.sh`
-
+  ```bash
+  git clone https://github.com/ipmstyle/raspberrypi_monitor.git
+  cd raspberrypi_monitor
+  sudo chmod +x ./temp_for_crontab.sh
+  ./temp_for_crontab.sh
+  ```
 
 ## 온도 히스토리
 
